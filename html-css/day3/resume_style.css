@@ -227,3 +227,43 @@ main h2 {
     color: #888;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding-left: 0;
+    }
+
+    .sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+        padding: 16px 0;
+    }
+
+    .sidebar-menu {
+        flex-direction: row;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .container {
+        margin: 16px;
+        padding: 20px;
+    }
+
+    .header-content {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 16px;
+    }
+
+    #resume-header span {
+        display: inline-block;
+    }
+
+    .experience-info,
+    .project-header {
+        flex-direction: column;
+        gap: 2px;
+    }
+}
