@@ -1,0 +1,229 @@
+body {
+    text-align: left;
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 0 0 0 200px;
+    margin: 0;
+}
+
+.sidebar {
+    background-color: #2f2a24;
+    color: #fff;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding-top: 40px;
+}
+
+.sidebar-container {
+    padding: 0 20px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95em;
+    transition: color 0.3s;
+}
+
+.sidebar-menu li a:hover {
+    color: #d99a2b;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    min-height: calc(100vh - 80px);
+}
+
+#resume-header {
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-photo .avatar-fallback {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #d99a2b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    border: 3px solid #eee;
+}
+
+#resume-header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.5em;
+    color: #222;
+}
+
+#resume-header span {
+    display: block;
+    margin-right: 20px;
+    color: #666;
+    font-size: 0.95em;
+    margin-bottom: 4px;
+}
+
+#resume-header i {
+    color: #555;
+    width: 20px;
+}
+
+main h2 {
+    font-size: 1.5em;
+    border-left: 5px solid #333;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+#introduce p {
+    color: #444;
+}
+
+.skills-group {
+    margin-bottom: 18px;
+}
+
+.skills-group h3 {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tag {
+    background-color: #f1e6d2;
+    color: #6b4f1d;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+.experience-item {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.experience-item:last-child {
+    border-bottom: none;
+}
+
+.experience-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+.experience-info .company {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #222;
+}
+
+.experience-info .period {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.experience-item .role {
+    margin-bottom: 10px;
+}
+
+.experience-item .position {
+    font-weight: 600;
+    color: #555;
+}
+
+.experience-item .rank {
+    font-weight: 500;
+    color: #888;
+    font-size: 0.9em;
+    margin-left: 8px;
+    padding-left: 8px;
+    border-left: 1px solid #ddd;
+}
+
+.project {
+    margin-top: 12px;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+.project-period {
+    color: #999;
+    font-weight: 400;
+    font-size: 0.85em;
+}
+
+.experience-item .details {
+    margin: 0;
+    padding-left: 18px;
+    color: #555;
+    font-size: 0.95em;
+}
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+.education-table th,
+.education-table td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+    font-weight: 400;
+}
+
+.education-table th {
+    width: 140px;
+    color: #888;
+    font-weight: 600;
+}
