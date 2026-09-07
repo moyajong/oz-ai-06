@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버튼 계산기</title>
+    <link rel="stylesheet" href="calculator_style.css">
+</head>
+<body>
+
+<div class="calculator">
+    <input type="text" id="display" readonly value="0">
+    <div class="buttons">
+        <button class="power" id="powerBtn" onclick="togglePower()">ON/OFF</button>
+        <button class="clear" onclick="clearAll()">C</button>
+        <button class="operator" onclick="pushOperator('/')">/</button>
+
+        <button class="number" onclick="pushNumber('7')">7</button>
+        <button class="number" onclick="pushNumber('8')">8</button>
+        <button class="number" onclick="pushNumber('9')">9</button>
+        <button class="operator" onclick="pushOperator('*')">*</button>
+
+        <button class="number" onclick="pushNumber('4')">4</button>
+        <button class="number" onclick="pushNumber('5')">5</button>
+        <button class="number" onclick="pushNumber('6')">6</button>
+        <button class="operator" onclick="pushOperator('-')">-</button>
+
+        <button class="number" onclick="pushNumber('1')">1</button>
+        <button class="number" onclick="pushNumber('2')">2</button>
+        <button class="number" onclick="pushNumber('3')">3</button>
+        <button class="operator" onclick="pushOperator('+')">+</button>
+
+        <button class="number" onclick="pushNumber('.')">.</button>
+        <button class="number" onclick="pushNumber('0')">0</button>
+        <button class="enter" onclick="submitFormula()">Enter</button>
+    </div>
+</div>
+
+<script src="calculator_v2.js"></script>
+</body>
+</html>
