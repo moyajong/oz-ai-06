@@ -1,0 +1,1190 @@
+{
+  "class_stats": {
+    "glioma": {
+      "train_total": 1400,
+      "train_aug": 0,
+      "test_total": 400,
+      "test_aug": 0
+    },
+    "meningioma": {
+      "train_total": 1400,
+      "train_aug": 100,
+      "test_total": 400,
+      "test_aug": 103
+    },
+    "notumor": {
+      "train_total": 1400,
+      "train_aug": 0,
+      "test_total": 400,
+      "test_aug": 0
+    },
+    "pituitary": {
+      "train_total": 1400,
+      "train_aug": 0,
+      "test_total": 400,
+      "test_aug": 0
+    }
+  },
+  "hash_dist_threshold": 6,
+  "meningioma_leak_pairs": [
+    {
+      "test": "Te-aug-me_1.jpg",
+      "train": "Tr-me_1285.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-aug-me_83.jpg",
+      "train": "Tr-me_377.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_1.jpg",
+      "train": "Tr-me_36.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_101.jpg",
+      "train": "Tr-me_404.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_105.jpg",
+      "train": "Tr-me_530.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_109.jpg",
+      "train": "Tr-me_877.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_111.jpg",
+      "train": "Tr-me_865.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_113.jpg",
+      "train": "Tr-me_962.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_116.jpg",
+      "train": "Tr-me_339.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_117.jpg",
+      "train": "Tr-me_846.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_121.jpg",
+      "train": "Tr-me_706.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_125.jpg",
+      "train": "Tr-me_1282.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_126.jpg",
+      "train": "Tr-me_845.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_137.jpg",
+      "train": "Tr-me_666.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_138.jpg",
+      "train": "Tr-me_557.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_149.jpg",
+      "train": "Tr-me_960.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_152.jpg",
+      "train": "Tr-me_586.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_156.jpg",
+      "train": "Tr-me_957.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_157.jpg",
+      "train": "Tr-me_1044.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_158.jpg",
+      "train": "Tr-me_1194.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_159.jpg",
+      "train": "Tr-me_1122.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_162.jpg",
+      "train": "Tr-me_758.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_165.jpg",
+      "train": "Tr-me_1112.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_167.jpg",
+      "train": "Tr-me_239.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_171.jpg",
+      "train": "Tr-me_453.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_174.jpg",
+      "train": "Tr-me_110.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_175.jpg",
+      "train": "Tr-me_737.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_179.jpg",
+      "train": "Tr-me_432.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_18.jpg",
+      "train": "Tr-me_331.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_180.jpg",
+      "train": "Tr-me_616.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_184.jpg",
+      "train": "Tr-me_19.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_187.jpg",
+      "train": "Tr-me_52.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_19.jpg",
+      "train": "Tr-me_771.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_190.jpg",
+      "train": "Tr-me_472.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_195.jpg",
+      "train": "Tr-me_3.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_197.jpg",
+      "train": "Tr-me_437.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_198.jpg",
+      "train": "Tr-me_432.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_2.jpg",
+      "train": "Tr-me_1069.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_20.jpg",
+      "train": "Tr-me_373.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_202.jpg",
+      "train": "Tr-me_421.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_205.jpg",
+      "train": "Tr-me_661.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_206.jpg",
+      "train": "Tr-me_753.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_207.jpg",
+      "train": "Tr-me_1262.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_208.jpg",
+      "train": "Tr-me_421.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_213.jpg",
+      "train": "Tr-me_489.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_214.jpg",
+      "train": "Tr-me_464.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_216.jpg",
+      "train": "Tr-me_330.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_219.jpg",
+      "train": "Tr-me_920.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_223.jpg",
+      "train": "Tr-me_965.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_228.jpg",
+      "train": "Tr-me_497.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_229.jpg",
+      "train": "Tr-me_688.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_230.jpg",
+      "train": "Tr-me_1044.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_231.jpg",
+      "train": "Tr-me_158.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_232.jpg",
+      "train": "Tr-me_205.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_234.jpg",
+      "train": "Tr-me_760.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_235.jpg",
+      "train": "Tr-me_339.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_241.jpg",
+      "train": "Tr-me_1146.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_243.jpg",
+      "train": "Tr-me_880.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_251.jpg",
+      "train": "Tr-me_450.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_252.jpg",
+      "train": "Tr-me_1069.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_253.jpg",
+      "train": "Tr-me_776.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_259.jpg",
+      "train": "Tr-me_553.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_26.jpg",
+      "train": "Tr-me_99.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_262.jpg",
+      "train": "Tr-me_464.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_265.jpg",
+      "train": "Tr-me_126.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_266.jpg",
+      "train": "Tr-me_1249.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_270.jpg",
+      "train": "Tr-me_1057.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_274.jpg",
+      "train": "Tr-me_1163.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_276.jpg",
+      "train": "Tr-me_167.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_277.jpg",
+      "train": "Tr-me_50.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_278.jpg",
+      "train": "Tr-me_479.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_279.jpg",
+      "train": "Tr-me_897.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_280.jpg",
+      "train": "Tr-me_954.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_285.jpg",
+      "train": "Tr-me_1289.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_288.jpg",
+      "train": "Tr-me_980.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_29.jpg",
+      "train": "Tr-me_684.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_290.jpg",
+      "train": "Tr-me_597.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_293.jpg",
+      "train": "Tr-me_688.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_296.jpg",
+      "train": "Tr-me_145.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_30.jpg",
+      "train": "Tr-me_109.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_31.jpg",
+      "train": "Tr-me_1166.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_37.jpg",
+      "train": "Tr-me_1290.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_39.jpg",
+      "train": "Tr-me_1225.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_4.jpg",
+      "train": "Tr-me_1286.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_42.jpg",
+      "train": "Tr-me_1110.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_49.jpg",
+      "train": "Tr-me_424.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_5.jpg",
+      "train": "Tr-me_1083.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_50.jpg",
+      "train": "Tr-me_468.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_52.jpg",
+      "train": "Tr-me_154.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_54.jpg",
+      "train": "Tr-me_200.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_61.jpg",
+      "train": "Tr-me_468.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_62.jpg",
+      "train": "Tr-me_678.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_66.jpg",
+      "train": "Tr-me_1198.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_71.jpg",
+      "train": "Tr-me_1168.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_75.jpg",
+      "train": "Tr-me_717.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_8.jpg",
+      "train": "Tr-me_486.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_81.jpg",
+      "train": "Tr-me_740.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_82.jpg",
+      "train": "Tr-me_583.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_83.jpg",
+      "train": "Tr-me_905.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_86.jpg",
+      "train": "Tr-me_1121.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_9.jpg",
+      "train": "Tr-me_715.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_93.jpg",
+      "train": "Tr-me_131.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_94.jpg",
+      "train": "Tr-me_946.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_95.jpg",
+      "train": "Tr-me_1091.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-me_96.jpg",
+      "train": "Tr-me_458.jpg",
+      "hash_distance": 0
+    },
+    {
+      "test": "Te-aug-me_39.jpg",
+      "train": "Tr-aug-me_68.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-aug-me_42.jpg",
+      "train": "Tr-aug-me_11.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-aug-me_73.jpg",
+      "train": "Tr-me_548.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-aug-me_86.jpg",
+      "train": "Tr-me_814.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-aug-me_97.jpg",
+      "train": "Tr-me_79.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_102.jpg",
+      "train": "Tr-me_1265.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_144.jpg",
+      "train": "Tr-me_567.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_161.jpg",
+      "train": "Tr-me_500.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_185.jpg",
+      "train": "Tr-me_1255.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_210.jpg",
+      "train": "Tr-me_167.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_222.jpg",
+      "train": "Tr-aug-me_1.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_226.jpg",
+      "train": "Tr-me_827.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_272.jpg",
+      "train": "Tr-me_1127.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_286.jpg",
+      "train": "Tr-me_92.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_33.jpg",
+      "train": "Tr-me_467.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_46.jpg",
+      "train": "Tr-me_1257.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_51.jpg",
+      "train": "Tr-me_194.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_67.jpg",
+      "train": "Tr-me_529.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-me_90.jpg",
+      "train": "Tr-me_1283.jpg",
+      "hash_distance": 2
+    },
+    {
+      "test": "Te-aug-me_15.jpg",
+      "train": "Tr-me_425.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-aug-me_17.jpg",
+      "train": "Tr-me_917.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-aug-me_22.jpg",
+      "train": "Tr-me_332.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-aug-me_29.jpg",
+      "train": "Tr-me_582.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-aug-me_32.jpg",
+      "train": "Tr-me_722.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-aug-me_48.jpg",
+      "train": "Tr-me_1046.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-aug-me_63.jpg",
+      "train": "Tr-me_118.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-aug-me_66.jpg",
+      "train": "Tr-me_4.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-aug-me_77.jpg",
+      "train": "Tr-me_1153.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-aug-me_80.jpg",
+      "train": "Tr-me_222.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-aug-me_84.jpg",
+      "train": "Tr-me_817.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-aug-me_87.jpg",
+      "train": "Tr-me_1126.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-aug-me_90.jpg",
+      "train": "Tr-me_788.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_110.jpg",
+      "train": "Tr-me_162.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_122.jpg",
+      "train": "Tr-me_447.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_134.jpg",
+      "train": "Tr-me_1199.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_146.jpg",
+      "train": "Tr-me_816.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_164.jpg",
+      "train": "Tr-me_622.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_172.jpg",
+      "train": "Tr-me_900.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_173.jpg",
+      "train": "Tr-me_568.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_177.jpg",
+      "train": "Tr-me_1263.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_178.jpg",
+      "train": "Tr-me_435.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_189.jpg",
+      "train": "Tr-me_598.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_209.jpg",
+      "train": "Tr-me_948.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_211.jpg",
+      "train": "Tr-me_425.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_212.jpg",
+      "train": "Tr-me_814.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_220.jpg",
+      "train": "Tr-me_547.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_224.jpg",
+      "train": "Tr-me_628.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_238.jpg",
+      "train": "Tr-me_351.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_242.jpg",
+      "train": "Tr-aug-me_12.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_25.jpg",
+      "train": "Tr-me_924.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_257.jpg",
+      "train": "Tr-me_774.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_263.jpg",
+      "train": "Tr-me_556.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_27.jpg",
+      "train": "Tr-me_705.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_271.jpg",
+      "train": "Tr-me_228.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_282.jpg",
+      "train": "Tr-me_60.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_287.jpg",
+      "train": "Tr-me_1106.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_294.jpg",
+      "train": "Tr-me_260.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_297.jpg",
+      "train": "Tr-me_418.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_58.jpg",
+      "train": "Tr-me_382.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_65.jpg",
+      "train": "Tr-me_680.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_7.jpg",
+      "train": "Tr-me_176.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_76.jpg",
+      "train": "Tr-me_806.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_80.jpg",
+      "train": "Tr-me_892.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_97.jpg",
+      "train": "Tr-me_891.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-me_99.jpg",
+      "train": "Tr-aug-me_67.jpg",
+      "hash_distance": 4
+    },
+    {
+      "test": "Te-aug-me_11.jpg",
+      "train": "Tr-me_1027.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-aug-me_21.jpg",
+      "train": "Tr-me_628.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-aug-me_24.jpg",
+      "train": "Tr-me_712.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-aug-me_31.jpg",
+      "train": "Tr-me_1247.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-aug-me_4.jpg",
+      "train": "Tr-me_1029.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-aug-me_43.jpg",
+      "train": "Tr-me_949.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-aug-me_45.jpg",
+      "train": "Tr-me_526.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-aug-me_5.jpg",
+      "train": "Tr-aug-me_9.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-aug-me_53.jpg",
+      "train": "Tr-aug-me_79.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-aug-me_79.jpg",
+      "train": "Tr-me_217.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-aug-me_82.jpg",
+      "train": "Tr-me_881.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-aug-me_88.jpg",
+      "train": "Tr-aug-me_88.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-aug-me_94.jpg",
+      "train": "Tr-me_297.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-aug-me_99.jpg",
+      "train": "Tr-me_402.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_103.jpg",
+      "train": "Tr-me_1227.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_107.jpg",
+      "train": "Tr-me_128.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_11.jpg",
+      "train": "Tr-me_565.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_114.jpg",
+      "train": "Tr-me_347.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_123.jpg",
+      "train": "Tr-me_789.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_129.jpg",
+      "train": "Tr-me_567.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_130.jpg",
+      "train": "Tr-me_249.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_131.jpg",
+      "train": "Tr-me_705.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_135.jpg",
+      "train": "Tr-me_540.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_139.jpg",
+      "train": "Tr-me_936.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_142.jpg",
+      "train": "Tr-me_102.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_150.jpg",
+      "train": "Tr-me_767.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_153.jpg",
+      "train": "Tr-me_641.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_166.jpg",
+      "train": "Tr-me_856.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_168.jpg",
+      "train": "Tr-me_133.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_169.jpg",
+      "train": "Tr-me_981.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_193.jpg",
+      "train": "Tr-me_907.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_194.jpg",
+      "train": "Tr-me_1185.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_196.jpg",
+      "train": "Tr-me_213.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_200.jpg",
+      "train": "Tr-me_712.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_203.jpg",
+      "train": "Tr-me_300.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_217.jpg",
+      "train": "Tr-me_573.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_22.jpg",
+      "train": "Tr-me_1114.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_221.jpg",
+      "train": "Tr-me_1181.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_23.jpg",
+      "train": "Tr-me_1087.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_237.jpg",
+      "train": "Tr-me_32.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_240.jpg",
+      "train": "Tr-me_249.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_244.jpg",
+      "train": "Tr-me_191.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_246.jpg",
+      "train": "Tr-me_398.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_258.jpg",
+      "train": "Tr-me_394.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_269.jpg",
+      "train": "Tr-me_260.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_273.jpg",
+      "train": "Tr-aug-me_8.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_275.jpg",
+      "train": "Tr-me_103.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_28.jpg",
+      "train": "Tr-me_718.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_289.jpg",
+      "train": "Tr-me_439.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_32.jpg",
+      "train": "Tr-aug-me_48.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_34.jpg",
+      "train": "Tr-me_280.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_38.jpg",
+      "train": "Tr-me_156.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_43.jpg",
+      "train": "Tr-me_46.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_55.jpg",
+      "train": "Tr-me_713.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_59.jpg",
+      "train": "Tr-me_976.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_63.jpg",
+      "train": "Tr-me_1260.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_64.jpg",
+      "train": "Tr-me_849.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_77.jpg",
+      "train": "Tr-me_1054.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_85.jpg",
+      "train": "Tr-me_297.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_88.jpg",
+      "train": "Tr-me_309.jpg",
+      "hash_distance": 6
+    },
+    {
+      "test": "Te-me_92.jpg",
+      "train": "Tr-me_1215.jpg",
+      "hash_distance": 6
+    }
+  ],
+  "meningioma_leak_count": 231,
+  "meningioma_test_total": 400,
+  "control_notumor_leak_count": 363,
+  "control_notumor_test_total": 400
+}
