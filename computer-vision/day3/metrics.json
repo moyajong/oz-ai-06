@@ -1,0 +1,77 @@
+{
+  "dataset": {
+    "source": "VinBigData Chest X-ray (512x512 PNG, awsaf49 변환본)",
+    "n_sample": 2000,
+    "train": 1400,
+    "val": 300,
+    "test": 300,
+    "classes": [
+      "Aortic enlargement",
+      "Atelectasis",
+      "Calcification",
+      "Cardiomegaly",
+      "Consolidation",
+      "ILD",
+      "Infiltration",
+      "Lung Opacity",
+      "Nodule/Mass",
+      "Other lesion",
+      "Pleural effusion",
+      "Pleural thickening",
+      "Pneumothorax",
+      "Pulmonary fibrosis"
+    ]
+  },
+  "model": "YOLOv8n (yolov8n.pt, COCO pretrained)",
+  "best_key": "optimized",
+  "experiments": {
+    "baseline": {
+      "imgsz": 384,
+      "epochs_ran": 30,
+      "train_seconds": 479.31129574775696,
+      "val": {
+        "precision": 0.2868694863359515,
+        "recall": 0.1767845830158897,
+        "map50": 0.16802703985784465,
+        "map50_95": 0.08531153571002893
+      },
+      "best_weights": "D:\\oz_assignment\\ComputerVision\\day3\\runs\\baseline\\weights\\best.pt",
+      "save_dir": "D:\\oz_assignment\\ComputerVision\\day3\\runs\\baseline"
+    },
+    "optimized": {
+      "imgsz": 640,
+      "epochs_ran": 30,
+      "train_seconds": 969.2100241184235,
+      "val": {
+        "precision": 0.36871213393872526,
+        "recall": 0.1895573596097422,
+        "map50": 0.17397009564579552,
+        "map50_95": 0.08629251533008044
+      },
+      "best_weights": "D:\\oz_assignment\\ComputerVision\\day3\\runs\\optimized\\weights\\best.pt",
+      "save_dir": "D:\\oz_assignment\\ComputerVision\\day3\\runs\\optimized"
+    }
+  },
+  "internal_test": {
+    "precision": 0.30521802943429893,
+    "recall": 0.23345647249159157,
+    "map50": 0.2311335532132722,
+    "map50_95": 0.11816492074529497
+  },
+  "per_class_ap50": {
+    "Aortic enlargement": 0.62533072581141,
+    "Atelectasis": 0.11166666666666666,
+    "Calcification": 0.016310502220358784,
+    "Cardiomegaly": 0.5991929367874689,
+    "Consolidation": 0.5069767185034936,
+    "ILD": 0.47379666746202187,
+    "Infiltration": 0.1836117484219562,
+    "Lung Opacity": 0.26451444617577174,
+    "Nodule/Mass": 0.0038034780528888937,
+    "Other lesion": 0.011818607551191473,
+    "Pleural effusion": 0.15020959201126519,
+    "Pleural thickening": 0.08275073673659801,
+    "Pneumothorax": 0.013227040816326531,
+    "Pulmonary fibrosis": 0.1926598777683936
+  }
+}
